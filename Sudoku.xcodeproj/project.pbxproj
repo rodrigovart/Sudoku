@@ -13,6 +13,7 @@
 		9D2E2E512DD00BCA00D012A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E502DD00BCA00D012A1 /* Preview Assets.xcassets */; };
 		9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E592DD019F800D012A1 /* OnbordingView.swift */; };
 		9D2E2E5E2DD02D4500D012A1 /* Summary Notes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */; };
+		9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9D2E2E502DD00BCA00D012A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D2E2E592DD019F800D012A1 /* OnbordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
 		9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summary Notes.ttf"; sourceTree = "<group>"; };
+		9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,18 +78,11 @@
 		9D2E2E572DD00FE300D012A1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9D2E2E582DD019CA00D012A1 /* Onbording */,
 				9D2E2E4A2DD00BC900D012A1 /* SplashView.swift */,
+				9D2E2E592DD019F800D012A1 /* OnbordingView.swift */,
+				9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		9D2E2E582DD019CA00D012A1 /* Onbording */ = {
-			isa = PBXGroup;
-			children = (
-				9D2E2E592DD019F800D012A1 /* OnbordingView.swift */,
-			);
-			path = Onbording;
 			sourceTree = "<group>";
 		};
 		9D2E2E5B2DD02A5E00D012A1 /* Assets */ = {
@@ -173,6 +168,7 @@
 				9D2E2E4B2DD00BC900D012A1 /* SplashView.swift in Sources */,
 				9D2E2E492DD00BC900D012A1 /* SudokuApp.swift in Sources */,
 				9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */,
+				9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
