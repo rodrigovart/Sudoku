@@ -8,21 +8,25 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    @State private var shouldNavigate = false
+    
     var body: some View {
         NavigationStack {
             VStack(spacing: 24) {
                 Spacer()
                 
                 VStack(spacing: 8) {
-                    Text("Welcome to")
+                    Text("Bem-vindo ao")
                         .font(.title3)
                         .fontWeight(.medium)
                     
                     Text("Sudoku")
-                        .font(.system(size: 48, weight: .bold))
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
                     
-                    Text("Hatchling")
-                        .font(.system(size: 36, weight: .light))
+                    Text("Iniciante")
+                        .font(.title)
+                        .fontWeight(.light)
                 }
                 
                 Image("LogoOwl")
@@ -31,7 +35,7 @@ struct WelcomeView: View {
                     .frame(height: 180)
                     .padding(.top, 20)
                 
-                Text("Crack the puzzles, spread your wings,\nand become a Sudoku master!")
+                Text("Resolva os desafios,\nabra suas asas e torne-se um mestre do Sudoku!")
                     .font(.body)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
@@ -39,9 +43,9 @@ struct WelcomeView: View {
                 Spacer()
                 
                 Button(action: {
-                    // ação de início aqui
+                    shouldNavigate = true
                 }) {
-                    Text("Let’s Start!")
+                    Text("Começar!")
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(
@@ -65,9 +69,11 @@ struct WelcomeView: View {
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarHidden(true)
+        .navigationDestination(isPresented: $shouldNavigate) {
+            EnterNameView()
+        }
     }
 }
-
 
 #Preview {
     WelcomeView()

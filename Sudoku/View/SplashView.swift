@@ -11,7 +11,7 @@ struct SplashView: View {
     @State private var moveUp1 = false
     @State private var moveUp2 = false
     @State private var moveUp3 = false
-    @State private var nextScreen = false
+    @State private var shouldNavigate = false
     
     var body: some View {
         NavigationStack {
@@ -19,6 +19,7 @@ struct SplashView: View {
                 HStack(spacing: 12) {
                     Image("Egg 1")
                         .resizable()
+                        .scaledToFit()
                         .frame(width: 24, height: 31)
                         .offset(y: moveUp1 ? -10 : 10)
                         .animation(
@@ -29,6 +30,7 @@ struct SplashView: View {
                     
                     Image("Egg 2")
                         .resizable()
+                        .scaledToFit()
                         .frame(width: 24, height: 31)
                         .offset(y: moveUp2 ? -10 : 10)
                         .animation(
@@ -39,6 +41,7 @@ struct SplashView: View {
                     
                     Image("Egg 3")
                         .resizable()
+                        .scaledToFit()
                         .frame(width: 24, height: 31)
                         .offset(y: moveUp3 ? -10 : 10)
                         .animation(
@@ -61,10 +64,10 @@ struct SplashView: View {
                     moveUp3 = true
                 }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                    nextScreen = true
+                    shouldNavigate = true
                 }
             }
-            .navigationDestination(isPresented: $nextScreen) {
+            .navigationDestination(isPresented: $shouldNavigate) {
                 OnboardingView()
             }
         }

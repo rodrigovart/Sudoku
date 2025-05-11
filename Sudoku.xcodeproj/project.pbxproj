@@ -14,6 +14,7 @@
 		9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E592DD019F800D012A1 /* OnbordingView.swift */; };
 		9D2E2E5E2DD02D4500D012A1 /* Summary Notes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */; };
 		9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */; };
+		9D2E2E622DD079ED00D012A1 /* EnterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9D2E2E592DD019F800D012A1 /* OnbordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
 		9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summary Notes.ttf"; sourceTree = "<group>"; };
 		9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9D2E2E4A2DD00BC900D012A1 /* SplashView.swift */,
 				9D2E2E592DD019F800D012A1 /* OnbordingView.swift */,
 				9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */,
+				9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				9D2E2E4B2DD00BC900D012A1 /* SplashView.swift in Sources */,
 				9D2E2E492DD00BC900D012A1 /* SudokuApp.swift in Sources */,
+				9D2E2E622DD079ED00D012A1 /* EnterNameView.swift in Sources */,
 				9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */,
 				9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */,
 			);
