@@ -15,3 +15,7 @@ struct SudokuApp: App {
         }
     }
 }
+
+extension UIColor {
+    static let yellowApp = UIColor(red: 255/255, green: 215/255, blue: 46/255, alpha: 1.0)
+}

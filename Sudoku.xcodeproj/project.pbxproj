@@ -11,6 +11,7 @@
 		9D2E2E4B2DD00BC900D012A1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E4A2DD00BC900D012A1 /* SplashView.swift */; };
 		9D2E2E4D2DD00BCA00D012A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E4C2DD00BCA00D012A1 /* Assets.xcassets */; };
 		9D2E2E512DD00BCA00D012A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E502DD00BCA00D012A1 /* Preview Assets.xcassets */; };
+		9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E592DD019F800D012A1 /* OnbordingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		9D2E2E4C2DD00BCA00D012A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2E2E4E2DD00BCA00D012A1 /* Sudoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sudoku.entitlements; sourceTree = "<group>"; };
 		9D2E2E502DD00BCA00D012A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D2E2E592DD019F800D012A1 /* OnbordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
+		9D2E2E5C2DD02A7B00D012A1 /* Summary Notes DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Summary Notes DEMO.ttf"; path = "../../../../../Desktop/Summary Notes DEMO.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +55,9 @@
 		9D2E2E472DD00BC900D012A1 /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				9D2E2E5B2DD02A5E00D012A1 /* Assets */,
 				9D2E2E572DD00FE300D012A1 /* View */,
 				9D2E2E482DD00BC900D012A1 /* SudokuApp.swift */,
-				9D2E2E4C2DD00BCA00D012A1 /* Assets.xcassets */,
 				9D2E2E4E2DD00BCA00D012A1 /* Sudoku.entitlements */,
 				9D2E2E4F2DD00BCA00D012A1 /* Preview Content */,
 			);
@@ -72,9 +75,27 @@
 		9D2E2E572DD00FE300D012A1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9D2E2E582DD019CA00D012A1 /* Onbording */,
 				9D2E2E4A2DD00BC900D012A1 /* SplashView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9D2E2E582DD019CA00D012A1 /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				9D2E2E592DD019F800D012A1 /* OnbordingView.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+		9D2E2E5B2DD02A5E00D012A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D2E2E5C2DD02A7B00D012A1 /* Summary Notes DEMO.ttf */,
+				9D2E2E4C2DD00BCA00D012A1 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +170,7 @@
 			files = (
 				9D2E2E4B2DD00BC900D012A1 /* SplashView.swift in Sources */,
 				9D2E2E492DD00BC900D012A1 /* SudokuApp.swift in Sources */,
+				9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
