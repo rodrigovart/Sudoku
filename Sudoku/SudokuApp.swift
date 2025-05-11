@@ -12,6 +12,7 @@ struct SudokuApp: App {
     var body: some Scene {
         WindowGroup {
             SplashView()
+                .environment(\.font, .custom("Summary Notes", size: 17))
         }
     }
 }
