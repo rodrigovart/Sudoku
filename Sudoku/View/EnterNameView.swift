@@ -68,7 +68,9 @@ struct EnterNameView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.white)
             .ignoresSafeArea()
-            .navigationDestination(isPresented: $shouldNavigate) {}
+            .navigationDestination(isPresented: $shouldNavigate) {
+                GameView()
+            }
         }
     }
 }

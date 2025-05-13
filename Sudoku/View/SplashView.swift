@@ -52,7 +52,7 @@ struct SplashView: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(UIColor.yellowApp))
+            .background(Color.yellowApp)
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.0) {
                     moveUp1 = true

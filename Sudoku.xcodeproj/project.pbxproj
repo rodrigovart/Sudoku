@@ -15,6 +15,9 @@
 		9D2E2E5E2DD02D4500D012A1 /* Summary Notes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */; };
 		9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */; };
 		9D2E2E622DD079ED00D012A1 /* EnterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */; };
+		9DC280982DD2C59A00B21AC1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC280972DD2C59A00B21AC1 /* GameView.swift */; };
+		9DC2809B2DD2CDE500B21AC1 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2809A2DD2CDE500B21AC1 /* GameViewModel.swift */; };
+		9DC2809E2DD2CE3400B21AC1 /* SudokuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2809D2DD2CE3400B21AC1 /* SudokuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summary Notes.ttf"; sourceTree = "<group>"; };
 		9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameView.swift; sourceTree = "<group>"; };
+		9DC280972DD2C59A00B21AC1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9DC2809A2DD2CDE500B21AC1 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		9DC2809D2DD2CE3400B21AC1 /* SudokuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 		9D2E2E472DD00BC900D012A1 /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				9DC2809C2DD2CE0A00B21AC1 /* Model */,
+				9DC280992DD2CDD300B21AC1 /* ViewModel */,
 				9D2E2E5B2DD02A5E00D012A1 /* Assets */,
 				9D2E2E572DD00FE300D012A1 /* View */,
 				9D2E2E482DD00BC900D012A1 /* SudokuApp.swift */,
@@ -84,6 +92,7 @@
 				9D2E2E592DD019F800D012A1 /* OnbordingView.swift */,
 				9D2E2E5F2DD06FA400D012A1 /* WelcomeView.swift */,
 				9D2E2E612DD079ED00D012A1 /* EnterNameView.swift */,
+				9DC280972DD2C59A00B21AC1 /* GameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +104,22 @@
 				9D2E2E5D2DD02D4400D012A1 /* Summary Notes.ttf */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		9DC280992DD2CDD300B21AC1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DC2809A2DD2CDE500B21AC1 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DC2809C2DD2CE0A00B21AC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DC2809D2DD2CE3400B21AC1 /* SudokuCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +197,10 @@
 				9D2E2E492DD00BC900D012A1 /* SudokuApp.swift in Sources */,
 				9D2E2E622DD079ED00D012A1 /* EnterNameView.swift in Sources */,
 				9D2E2E5A2DD019F800D012A1 /* OnbordingView.swift in Sources */,
+				9DC280982DD2C59A00B21AC1 /* GameView.swift in Sources */,
 				9D2E2E602DD06FA400D012A1 /* WelcomeView.swift in Sources */,
+				9DC2809E2DD2CE3400B21AC1 /* SudokuCell.swift in Sources */,
+				9DC2809B2DD2CDE500B21AC1 /* GameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
